@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Minha Loja</h1>
+            <nav>
+                <ul>
+                    <li><a href="#promo">Promoções</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção de Promoção -->
+    <section id="promo" class="promo">
+        <div class="container">
+            <h2>Promoção Imperdível!</h2>
+            <p>Aproveite 50% de desconto em todos os produtos! Só até o final do mês.</p>
+            <a href="#products" class="btn">Ver Produtos</a>
+        </div>
+    </section>
+
+    <!-- Seção de Produtos -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Nossos Produtos</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="img/tenis.1.jpg" alt="Produto 1">
+                    <h3>Produto 1</h3>
+                    <p>R$ 100,00</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="product-item">
+                    <img src="img/tenis2.jpg" alt="Produto 2">
+                    <h3>Produto 2</h3>
+                    <p>R$ 150,00</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="product-item">
+                    <img src="img/tenis.3.jpg" alt="Produto 3">
+                    <h3>Produto 3</h3>
+                    <p>R$ 200,00</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Testemunhos -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>O que nossos clientes dizem</h2>
+            <div class="testimonial-item">
+                <p>"Adorei a experiência de compra! Entrega rápida e produtos de excelente qualidade!"</p>
+                <span>- João Silva</span>
+            </div>
+            <div class="testimonial-item">
+                <p>"Os preços são imbatíveis! Vou comprar mais vezes com certeza."</p>
+                <span>- Maria Oliveira</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Tem alguma dúvida? Fale conosco!</p>
+            <form id="contact-form" action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Minha Loja | Todos os direitos reservados</p>
+            <div class="social">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
